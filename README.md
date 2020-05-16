@@ -12,11 +12,16 @@
       --test_finder.py
     --run.py
     --test.py
-#### Step-1
-1. git clone ""
+#### Step-1 (Coding task)
+1. git clone "https://github.com/sbsanjaybharti/find_string_char_in_list.git"
 2. Assuming that python is already install in the system
 3. Open the terminal run the command "python run.py" for check the result
 4. on the same terminal run command "python test.py" for unit test result 
+
+#### Step-2 (System Design)
+1. Available in system_design folder in 2 format
+2. PNG image
+3. drawio format which can open in http://draw.io application which is free online service 
 
 #### Description:
 1. Design pattern:
@@ -56,4 +61,4 @@ Maximum time complexity is
     Note: when n number of list with same length of all string
 ```
 
-2. Same finding can be done in O(n) max execution time also but in that case every if object created  single time and multiple time finding the string it will slowdown the process
+2. Same finding can be done in O(n) max execution time also but in that case if object created  single time and multiple time finding the string it will slowdown the process
