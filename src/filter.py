@@ -26,7 +26,6 @@ class Filter:
         else:
             return []
 
-
 @singletonAvoidDuplicates
 class Finder:
     def __init__(self, string_list=[]):
@@ -41,12 +40,11 @@ class Finder:
 
     def find(self, string=None):
         result = []
-        sort_string = sorted(string)
         if string is None:
             return "Finding string not provided"
 
         if len(string) in self.data:
             for element in self.data[len(string)]:
-                if sort_string == sorted(element):
+                if sorted(string) == sorted(element):
                     result.append(element)
         return result
