@@ -32,7 +32,7 @@
 ##### Feature:
 1. Converting string in to group of string length
 
-    For e.g. string_list = [​ 'asd', 'asdd'​, 'fre'​, 'glk'​, 'lkm', 'stdo']
+    For e.g. string_list = ['asd', 'asdd', 'fre', 'glk', 'lkm', 'stdo']
     after grouping: 
   ```json
     {
